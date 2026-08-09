@@ -1,0 +1,9 @@
+def takevalues():
+    p=float(input("Enter Principal Amount : "))
+    t=float(input("Enter Time : "))
+    r=float(input("Enter Rate of Intrest: "))
+    si=(p*t*r)
+    print(si)
+    return p,t,r
+takevalues()
+

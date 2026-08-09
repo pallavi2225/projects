@@ -1,0 +1,6 @@
+celcius=[0,10,20,30]
+def to_farenheit(c):
+    return (c*9/5)+32
+
+result=list(map(to_farenheit,celcius))
+print(result)

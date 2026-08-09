@@ -1,0 +1,21 @@
+# value="P2yt$1h4#0*3n"
+# alphas=list(filter(lambda ch:ch.isalpha(),value))
+# print(alphas)
+
+value=input("Enter a word with Mixed Values:")
+#value="PKB67HJNJHUIYGH8999$%^&&*"
+alphas=list(filter(lambda ch: ch.isalpha(),value))
+upperalphas=list(filter(lambda ch : ch.isalpha() and ch.isupper(), value))
+loweralphas=list(filter(lambda ch: ch.isalpha() and ch.islower(),value))
+digits=tuple(filter(lambda ch: ch.isdigit(), value))
+symbols=list(filter(lambda ch: ch.isalnum(),value))
+print("-----------------------------")
+# print(" ".join(sorted(digits)))
+# print(alphas)
+print("given Data=",value)
+print("Alpabets={}".format("".join(alphas)))
+print("\t\tupper Alphabet={}".format("".join(upperalphas)))
+print("\t\tlower Alphabet={}".format("".join(loweralphas)))
+print("Digits={}".format("".join(digits)))
+print("special symbols={}".format("".join(symbols)))
+print("----------------")
