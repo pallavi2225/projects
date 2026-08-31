@@ -10,3 +10,4 @@ print(add.__doc__)
 def calculate_total(pricess):
     """Calculate and returns the total price"""
     return sum(pricess)
+# calculate_total()
