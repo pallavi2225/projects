@@ -7,3 +7,5 @@ print(result)
 nos=[10,30,56,78,45]
 largest=reduce(lambda a,b: a if a > b else b,nos)
 print(largest)
+
+

@@ -1,0 +1,23 @@
+def add(a,b):
+    return a+b
+result=print(add(4,6))
+
+#Function Argument Unpacking
+#if values are inside a list?
+numbers=[10,20]
+print(add(*numbers))
+
+
+#Dictionary Unpacking with **
+
+def employee(name,age):
+    print(name,age)
+
+person={
+    "name": "Pallavi",
+    "age": 34
+}
+
+employee(**person)
+
+    
