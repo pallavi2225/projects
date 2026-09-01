@@ -9,3 +9,4 @@ largest=reduce(lambda a,b: a if a > b else b,nos)
 print(largest)
 
 
+    
