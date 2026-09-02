@@ -5,6 +5,14 @@ addition,subtraction=calculators(12,23)
 print(addition)
 print(subtraction)
 
+def cal(a,b):
+    addition =a+b
+    multiplication= a*b
+    return addition, multiplication
+
+result=print(cal(10,20))
+
+
 
 #Function returning Dictionary
 def create_user(name,age):
