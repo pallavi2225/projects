@@ -13,7 +13,7 @@ except Exception as e:
     print("Error:",e)
 
 
-print("else block will execute if there is no exception")
+# print("else block will execute if there is no exception")
 try:
     number=int(input("enter a number:"))
 except ValueError:
@@ -21,3 +21,11 @@ except ValueError:
 else:
     print("you entered a valid number:", number)
     #When does else execute? Only when the try block completes successfully.
+
+
+number=int(input("Enter a no:"))
+try:
+   result= 100 /number
+except ZeroDivisionError:
+    print("enter number greater than 0")
+print(result)
