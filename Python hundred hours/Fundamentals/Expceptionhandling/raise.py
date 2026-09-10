@@ -9,7 +9,7 @@ except ValueError as e:
 try:
     def withdraw(balance,amount):
         if amount > balance:
-           raise ValueError("insufficient Balance")
+           raise insufficientBalanceError
            print(balance-amount)
 except ValueError as e:
     print("error:",e)
